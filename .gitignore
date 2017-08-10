@@ -26,3 +26,4 @@ acceptance/.bundle
 *~
 /*.samples
 .tmp/
+Puppetfile.lock
