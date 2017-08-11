@@ -14,8 +14,8 @@
 # * `timeout`
 # Timeout for archive downloading, by default 0.
 #
-# * `deamon`
-# Should gradle be started with deamon option
+# * `daemon`
+# Should gradle be started with daemon option
 #
 # Examples
 # --------
@@ -40,7 +40,7 @@ class gradle (
   $version = '3.0',
   $target = '/opt',
   $gradle_opts = undef,
-  $deamon = true,
+  $daemon = true,
   ) {
 
     if !defined(Package['unzip']) {
